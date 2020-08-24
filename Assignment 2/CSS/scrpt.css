@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+h1 
+{
+    color:darksalmon;
+    border: 8px;
+    border-color: aqua;
+    font-family: sans-serif;
+    margin:40px;;
+    text-align: center;
+}
+div
+{
+    padding: 10px;
+}
+h3
+{
+    margin:0;
+    float:right;
+    color: aqua;
+    background-color: firebrick;
+    border: solid black;
+}
+p
+{
+    background-color:darkgoldenrod;
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+    border: solid black;
+}
+.main
+{
+    width: 100%;
+}
+@media (min-width:992px)
+{
+.lg-4
+{
+     float: left;
+    width: 33.33%;
+}
+}
+@media (max-width:992px) and (min-width:768px)
+{
+.md-6
+{
+     float: left;
+    width: 50%;
+}
+    .t3
+    {
+        float:left;
+        width:100%;
+        width:100%;
+    }
+}
+@media (max-width:767px)
+{
+.lg-4
+{
+     float: left;
+    width: 100%;
+}
+}
