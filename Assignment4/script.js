@@ -1,8 +1,8 @@
 var nmes=new Array;
-nmes=["Jhon","Cena","Jack","sparrow","bruce","wayne","jerk"];
+nmes=["Yaakov","John","Jen","Jason","Paul","Frank","Larry","Paula","Laura","Jim"];
 for(i in nmes) {
     if(nmes[i].charAt(0)=="j"|nmes[i].charAt(0)=="J") {
-        console.log("hi "+ nmes[i]);
+        console.log("Good bye "+ nmes[i]);
     }
     else {
         console.log("Hello "+ nmes[i]);
